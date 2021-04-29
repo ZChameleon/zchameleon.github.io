@@ -1,1 +1,20 @@
 /* Here is your custom css styles. */
+
+header .brand-logo .logo-img {
+    height: 40px;
+    vertical-align: middle;
+    padding-bottom: 6px;
+}
+
+@media only screen and (max-width: 601px) {
+    header .brand-logo .logo-img {
+        height: 32px;
+        vertical-align: middle;
+        padding-bottom: 3px;
+    }
+
+    header .brand-logo .logo-span {
+        font-size: 1.4rem;
+    }
+
+}
